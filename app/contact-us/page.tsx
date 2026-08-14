@@ -44,14 +44,19 @@ export default function ContactPage() {
                 <MailIcon />
                 <span>{site.email}</span>
               </a>
-              <div className="contact-fact">
+              <a
+                className="contact-fact"
+                href={site.address.mapUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <PinIcon />
                 <span>
                   {site.address.street}
                   <br />
                   {site.address.city}, {site.address.state} {site.address.zip}
                 </span>
-              </div>
+              </a>
               <div className="contact-fact">
                 <PinIcon />
                 <span>By appointment only · Serving {site.address.region}</span>

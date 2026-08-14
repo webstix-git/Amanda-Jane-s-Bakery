@@ -52,14 +52,19 @@ export function Footer() {
 
         <div className="footer-col">
           <span>Contact</span>
-          <span className="footer-meta">
+          <a
+            className="footer-meta"
+            href={site.address.mapUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <PinIcon />
             <span>
               {site.address.street}
               <br />
               {site.address.city}, {site.address.state} {site.address.zip}
             </span>
-          </span>
+          </a>
           <a className="footer-meta" href={`tel:${site.phone}`}>
             <PhoneIcon />
             <span>{site.phoneDisplay}</span>

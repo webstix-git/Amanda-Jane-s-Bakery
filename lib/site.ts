@@ -15,6 +15,8 @@ export const site = {
     zip: "49085",
     region: "Berrien County",
     full: "5696 Hollywood Road, St. Joseph, MI 49085",
+    mapUrl:
+      "https://www.google.com/maps/search/?api=1&query=5696+Hollywood+Road,+St.+Joseph,+MI+49085",
   },
   facebook: "https://www.facebook.com/amandajanes2021/",
   instagram: "https://www.instagram.com/amandajanes2021/",
