@@ -146,10 +146,6 @@ button {
   height: 72px;
 }
 
-.site-header.is-stuck .brand-text {
-  display: none;
-}
-
 .brand-text {
   display: flex;
   flex-direction: column;
@@ -538,7 +534,7 @@ h3 {
 .hero-copy p {
   width: 100%;
   max-width: 100%;
-  font-size: 19px;
+  font-size: 22px;
   line-height: 1.72;
   color: #f4f0e8;
   margin: 0;
@@ -984,7 +980,7 @@ h3 {
 }
 
 .cater-copy h2 {
-  font-size: clamp(32px, 3.4vw, 52px);
+  font-size: clamp(26px, 2.7vw, 44px);
   line-height: 1.1;
   color: var(--ivory);
   max-width: none;
@@ -2426,7 +2422,8 @@ h3 {
   }
 
   .cater-copy h2 {
-    white-space: normal;
+    font-size: clamp(15px, 5.2vw, 26px);
+    white-space: nowrap;
   }
 
   .site-header {
