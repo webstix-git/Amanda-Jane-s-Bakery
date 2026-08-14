@@ -144,11 +144,11 @@ export default function CateringPage() {
       <section id="order" className="order">
         <div className="order-grid order-grid-center">
           <div className="order-intro">
+            <div className="eyebrow-plain dark">Custom Order Request</div>
             <h2>Tell Us What You&rsquo;re Celebrating.</h2>
             <p>
-              Share your date, guest count, dessert ideas, and any inspiration
-              photos. We will reply within two business days to discuss
-              availability and next steps.
+              Send your date, guest count, and inspiration photos. We will
+              reply within two business days with next steps.
             </p>
           </div>
           <OrderForm />

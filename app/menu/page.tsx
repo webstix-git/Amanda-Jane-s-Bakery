@@ -21,12 +21,14 @@ export default function MenuPage() {
       <section className="cream-section menu-simple">
         <div className="menu-simple-layout">
           <div className="menu-simple-head">
-            <h2>Download the Current Menu.</h2>
-            <p>
-              The menu is a good place to start for flavors and available
-              treats. Custom cakes and decorated cookie sets are priced based on
-              the design, quantity, and event date.
-            </p>
+            <div className="menu-simple-copy">
+              <h2>Download the Current Menu.</h2>
+              <p>
+                The menu is a good place to start for flavors and available
+                treats. Custom cakes and decorated cookie sets are priced based on
+                the design, quantity, and event date.
+              </p>
+            </div>
             <a href={site.menuPdf} className="btn-gold" download>
               Download menu PDF
             </a>

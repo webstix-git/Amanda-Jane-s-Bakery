@@ -35,7 +35,7 @@ export default function AboutPage() {
               by hand for yours.
             </p>
             <div className="signoff">
-              <span className="eyebrow-line" style={{ background: "#B08D2E" }} />
+              <span className="eyebrow-line" style={{ background: "var(--gold)" }} />
               <span>Amanda Jane · Owner &amp; Decorator</span>
             </div>
           </div>

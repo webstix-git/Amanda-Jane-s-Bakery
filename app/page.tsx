@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { OrderForm } from "@/components/forms/OrderForm";
 import { CookieRail } from "@/components/home/CookieRail";
 import { HeroSlider } from "@/components/home/HeroSlider";
 import { CheckIcon, FacebookIcon, InstagramIcon } from "@/components/ui/Icons";
@@ -90,7 +91,7 @@ export default function HomePage() {
               that fits the occasion and tastes as good as it looks.
             </p>
             <div className="signoff">
-              <span className="eyebrow-line" style={{ background: "#B08D2E" }} />
+              <span className="eyebrow-line" style={{ background: "var(--gold)" }} />
               <span>Amanda Jane · Owner &amp; Decorator</span>
             </div>
           </div>
@@ -234,14 +235,11 @@ export default function HomePage() {
               </p>
             </div>
           </div>
-          <Link href="/contact-us" className="btn-outline">
-            Request a Quote
-          </Link>
         </div>
       </section>
 
       <section id="order" className="order">
-        <div className="order-cta">
+        <div className="order-grid order-grid-center">
           <div className="order-intro">
             <div className="eyebrow-plain dark">Custom Order Request</div>
             <h2>Tell Us What You&rsquo;re Celebrating.</h2>
@@ -250,14 +248,7 @@ export default function HomePage() {
               reply within two business days with next steps.
             </p>
           </div>
-          <div className="btn-row">
-            <Link href="/contact-us" className="btn-gold">
-              Start a Custom Order
-            </Link>
-            <a href={`tel:${site.phone}`} className="btn-outline on-cream">
-              Call {site.phoneDisplay}
-            </a>
-          </div>
+          <OrderForm />
         </div>
       </section>
 
