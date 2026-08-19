@@ -37,10 +37,11 @@ export default function CateringPage() {
             <div className="frame">
               <div className="frame-border left" />
               <Image
-                src="/images/catering-wedding.png"
-                alt="Hand-decorated graduation cookies with gold tassels and diplomas"
+                src="/images/20260411_085510.jpg"
+                alt="Two-tier semi-naked wedding cake with fresh berries and a bride and groom topper"
                 width={900}
                 height={720}
+                className="fit-whole"
               />
             </div>
             <div className="occasion-copy">
@@ -85,8 +86,8 @@ export default function CateringPage() {
             <div className="frame">
               <div className="frame-border left" />
               <Image
-                src="/images/catering-birthday.png"
-                alt="Custom celebration cake for a corporate or gala table"
+                src="/images/20250919_142649.jpg"
+                alt="Hand-piped Curious Kids Museum logo cookies for a corporate order"
                 width={900}
                 height={1100}
                 className="fit-whole"
