@@ -74,8 +74,8 @@ export default function CateringPage() {
             <div className="frame">
               <div className="frame-border right" />
               <Image
-                src="/images/catering-corporate.png"
-                alt="Banana cupcakes for a birthday or celebration order"
+                src="/images/catering-wedding.png"
+                alt="Hand-decorated graduation cookies with caps, diplomas, and Class of 2026 design"
                 width={900}
                 height={720}
               />
