@@ -1099,7 +1099,8 @@ h3 {
 }
 
 .menu-frame {
-  width: 100%;
+  width: 80%;
+  margin-inline: auto;
   background: #141210;
   border: 1px solid rgba(192, 140, 5, 0.32);
   overflow: hidden;
